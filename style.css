@@ -1,0 +1,352 @@
+html{
+    font-size: 62.5%;
+}
+
+.navcontainer{
+    font-size: 2.5rem;
+}
+
+body{
+    background-color: 
+    rgb(0, 0, 0);
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    height: 97rem;
+}
+
+.header0{
+    width: 75rem;
+    color: white;
+    height: 26rem;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1{
+    width: 110rem;
+    color: white;
+    padding-top: 6rem;
+    margin-top: 12rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header1 .img{
+    width: 18rem;
+    height: 27rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.header1 .img img{
+    width: 16rem;
+}
+
+.big{
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+}
+
+.header2{
+    width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    color: white;
+    height: 38rem;
+}
+
+.header2 .w3{
+    width: 95rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header2 .pbar{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.project{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 69rem;
+    background-color: aliceblue;
+    width: 150rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project1{
+    height: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 9rem;
+    background-color: aliceblue;
+    width: 110rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.project .project1 .card{
+    height: 54rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    background-color: aliceblue;
+    margin-top: 2rem;
+}
+
+.project .project1 .card img{
+    border-style: solid;
+    border-width: 0.1rem;
+}
+
+.project .project1 .card .date{
+    width: 25rem;
+    height: 4rem;
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+}
+
+.project .project1 .card .p1{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about{
+    margin: auto;
+    height: 65rem;
+    background-color: aliceblue;
+    border-width: 0.5rem;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.about .abtcontainer{
+    margin-top: 16rem;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about .abtcontainer .img{
+    width: 22rem;
+    border-style: ridge;
+}
+
+.hobbies{
+    margin-top: 4rem;
+    height: 78rem;
+}
+
+.hobbies .hbycontainer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 6rem;
+}
+
+.title1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+p{
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h1{
+    font-family: sans-serif;
+    text-align: center;
+    }
+
+    
+
+
+    h3{
+        margin-top: 3rem;
+        background: white;
+        color: black;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        border-radius: 1rem 2rem;
+        font-family: sans-serif;
+        text-align: center;
+        }
+
+    .containerfooter{
+        padding-top: 2rem;
+        margin-top: 2rem;
+        height: 50rem;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .tabfont{
+        font-size: 2rem;
+        font-weight: bolder;
+        font-family:'Inter', sans-serif;
+    }
+    .footer{
+        margin-top: 3rem;
+        font-size: 3rem;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+        color:white;
+        align-content: center;
+      }
+
+      .containerfooter a{
+          color: white;
+      }
+      
+      table, th, td{
+        border: 0.1rem solid rgb(255, 255, 255);
+        width: 60rem;
+        height: 9rem;
+     }
+      
+
+     @media only screen and (max-width: 1024px){
+        html{
+            font-size: 40%;
+        }
+    }
+
+    @media only screen and (max-width: 375px){
+        html{
+            font-size: 18%;
+        }
+
+        .header1{
+            flex-direction: column-reverse;
+        }
+
+        .header1 .img img{
+            width: 18rem;
+        }
+
+        .header2 .w3{
+            width: 93rem;
+            align-items: center;
+            margin-left: 0rem;
+            word-wrap: break-word;
+        }
+
+        .project{
+            width: 82rem;
+        }
+
+        .project1{
+            width: 78rem;
+        }
+
+        .project .project1 .card{
+            width: 35rem;
+            margin-left: 7rem;
+        }
+
+    }
+
+    @media only screen and (max-width: 393px){
+        html{
+            font-size: 18%;
+        }
+
+        .header1{
+            flex-direction: column-reverse;
+        }
+
+        .header1 .img img{
+            width: 18rem;
+        }
+
+        .header2 .w3{
+            width: 93rem;
+            align-items: center;
+            margin-left: 0rem;
+            word-wrap: break-word;
+        }
+
+        .project{
+            width: 82rem;
+        }
+
+        .project1{
+            width: 78rem;
+        }
+
+        .project .project1 .card{
+            width: 35rem;
+            margin-left: 7rem;
+        }
+
+    }
+
+    @media only screen and (max-width: 480px){
+        html{
+            font-size: 18%;
+        }
+
+        .header1{
+            flex-direction: column-reverse;
+        }
+
+        .header1 .img img{
+            width: 18rem;
+        }
+
+        .header2 .w3{
+            width: 93rem;
+            align-items: center;
+            margin-left: 0rem;
+            word-wrap: break-word;
+        }
+
+        .project{
+            width: 102rem;
+        }
+
+        .project1{
+            width: 82rem;
+        }
+
+        .project .project1 .card{
+            width: 39rem;
+            margin-left: 7rem;
+        }
+
+    }
